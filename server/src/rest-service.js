@@ -9,12 +9,20 @@ const bodyParser = require('koa-bodyparser');
 const app = new Koa();
 const router = new Router();
 
-router.get('/employee', (ctx, next) => {
+async function logger(ctx, next) {
+    const start = Date.now();
+    await next();
+    const ms = Date.now() - start;
+    console.log(`${ctx.method} ${ctx.path} - ${ms}ms`);
+}
+
+router.get('/employee', async (ctx, next) => {
+    ctx.body = await employeeService.getEmployees();
     ctx.status = 200;
-    ctx.body = employeeService.getEmployees();
 });
 
 app
+    .use(logger)
     .use(bodyParser())
     .use(router.routes())
     .use(router.allowedMethods());

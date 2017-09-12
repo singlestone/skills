@@ -2,7 +2,7 @@ const initalData = [{
     username: 'vathuluri',
     firstName: 'Vijay',
     lastName: 'Athuluri',
-    skills: ["C#", "ASP.NET MVC", "Azure Active Directory", "Microsoft SQL Server", "JavaScript", "LINQ", "Software Development", "Databases", "SDLC", "Requirements Analysis", "Project Management", "Agile Methodologies", "Integration", "Software Project Management", "SharePoint", "ASP.NET", "Analysis", "Software Engineering", "SQL", "Web Services", ".NET", "React.js", "CSS", "HTML", "Data Analysis", "ASP.NET Web API", "AngularJS", "Node.js", "RESTful WebServices", "AJAX", "Scrum", "jQuery", "Visual Studio", "Web Development", "SharePoint 2013", "WordPress", "Agile Project Management", "Database Design", "Software Design", "node.js"]
+    skills: ["C#", "ASP.NET MVC", "Azure Active Directory", "Microsoft SQL Server", "JavaScript", "LINQ", "Software Development", "Databases", "SDLC", "Requirements Analysis", "Project Management", "Agile Methodologies", "Integration", "Software Project Management", "SharePoint", "ASP.NET", "Analysis", "Software Engineering", "SQL", "Web Services", ".NET", "React.js", "CSS", "HTML", "Data Analysis", "ASP.NET Web API", "AngularJS", "Node.js", "REST", "AJAX", "Scrum", "jQuery", "Visual Studio", "Web Development", "SharePoint 2013", "WordPress", "Agile Project Management", "Database Design", "Software Design", "Node.js"]
 }, {
     username: 'oarias',
     firstName: 'Orlando',
@@ -17,7 +17,7 @@ const initalData = [{
     username: 'cbelyea',
     firstName: 'Chris',
     lastName: 'Belyea',
-    skills: ["Cloud Computing", "Amazon Web Services (AWS)", "Puppet", "Chef", "PowerShell", "ITIL", "Enterprise Architecture", "Integration", "IT Service Management", "BMC Remedy", "Virtualization", "VMware", "Program Management", "Requirements Analysis", "Project Management", "SQL", "Management", "Windows Server", "Visio", "Active Directory", "Agile Methodologies", "VMware ESX", "HTML", "BMC ProactiveNet", "BMC Portal", "CMDB", "vSphere", "Group Policy", "Cloud Lifecycle Management", "Continuous Integration", "Continuous Delivery", "ADDM", "Remedy AR System", "BEM", "SIM", "BladeLogic", "SNMP", "WMI", "Altiris", "WhatsUp Gold", "CSS", "Consulting"]
+    skills: ["Cloud Computing", "Amazon Web Services (AWS)", "Puppet", "Chef", "PowerShell", "ITIL", "Enterprise Architecture", "Integration", "IT Service Management", "BMC Remedy", "Virtualization", "VMware", "Program Management", "Requirements Analysis", "Project Management", "SQL", "Management", "Windows Server", "Visio", "Active Directory", "Agile Methodologies", "VMware ESX", "HTML", "BMC ProactiveNet", "BMC Portal", "CMDB", "VMware vSphere", "Group Policy", "Cloud Lifecycle Management", "Continuous Integration", "Continuous Delivery", "ADDM", "Remedy AR System", "BEM", "SIM", "BladeLogic", "SNMP", "WMI", "Altiris", "WhatsUp Gold", "CSS", "Consulting"]
 }, {
     username: 'jbennett',
     firstName: 'Jeff',
@@ -32,7 +32,7 @@ const initalData = [{
     username: 'cbuckley',
     firstName: 'Catlin',
     lastName: 'Buckley',
-    skills: ['Angular 4', 'JavaScript', 'Response Web Design', 'HTML 5', 'Git', 'SQL', 'Adobe Creative Suite', 'CSS', 'Content Management', 'WordPress', 'InDesign', 'CSS3', 'Node.js', 'AngularJS', 'Agile Methodologies', 'MySQL', 'Drupal', 'Photoshop', 'SASS', 'ASP.NET MVC', 'PHP', 'Web Development', 'PostgreSQL', 'Web Design', 'Illustrator']
+    skills: ['Angular 4', 'JavaScript', 'Responsive Web Design', 'HTML 5', 'Git', 'SQL', 'Adobe Creative Suite', 'CSS', 'Content Management', 'WordPress', 'InDesign', 'CSS3', 'Node.js', 'AngularJS', 'Agile Methodologies', 'MySQL', 'Drupal', 'Photoshop', 'SASS', 'ASP.NET MVC', 'PHP', 'Web Development', 'PostgreSQL', 'Web Design', 'Illustrator']
 }, {
     username: 'bbyrd',
     firstName: 'Bill',
@@ -47,7 +47,7 @@ const initalData = [{
     username: 'tchapman',
     firstName: 'Trevor',
     lastName: 'Chapman',
-    skills: ["Node.js", "Windows Azure", "MongoDB", "Cloud Computing", "APIs", "Web Development", "HTML", "JavaScript", "Web Design", "Cascading Style Sheets (CSS)", "jQuery", "Graphic Design", "User Interface Design", "Adobe Creative Suite", "SASS", "AngularJS", "Web Applications", "Git", "Front-end Development", "Representational State Transfer (REST)", "CSS", "User Experience"]
+    skills: ["Node.js", "Windows Azure", "MongoDB", "Cloud Computing", "APIs", "Web Development", "HTML", "JavaScript", "Web Design", "CSS", "jQuery", "Graphic Design", "User Interface Design", "Adobe Creative Suite", "SASS", "AngularJS", "Web Applications", "Git", "Front-end Development", "REST", "CSS", "User Experience"]
 }, {
     username: 'bcheatham',
     firstName: 'Blake',
@@ -87,7 +87,7 @@ const initalData = [{
     username: 'bcrouse',
     firstName: 'Ben',
     lastName: 'Crouse',
-    skills: ["C#", "LINQ", "ASP.NET", "JavaScript", "Web Services", "SQL", "jQuery", "HTML", "ASP.NET MVC", ".NET", "Visual Studio", "XML", "T-SQL", "VB.NET", "WCF", "TFS", "AJAX", "Visual Basic .NET (VB.NET)", "Language Integrated Query (LINQ)", "Windows Communication Foundation (WCF)", "Team Foundation Server (TFS)", "Transact-SQL (T-SQL)", "Test Driven Development", ".NET Framework"]
+    skills: ["C#", "LINQ", "ASP.NET", "JavaScript", "Web Services", "SQL", "jQuery", "HTML", "ASP.NET MVC", ".NET", "Visual Studio", "XML", "T-SQL", "VB.NET", "WCF", "TFS", "AJAX", "Visual Basic .NET (VB.NET)", "LINQ", "Windows Communication Foundation (WCF)", "Team Foundation Server (TFS)", "Transact-SQL (T-SQL)", "Test Driven Development", ".NET"]
 }, {
     username: 'ldunning',
     firstName: 'Laura',
@@ -102,7 +102,7 @@ const initalData = [{
     username: 'oely',
     firstName: 'Oren',
     lastName: 'Ely',
-    skills: ["Teamwork", "Python", "Java", "JavaScript", "Spring Framework", "MongoDB", "Linux System Administration", "HTML 5", "Android Development", "Django", "Git", "XML", "Swing", "Unix Administration", "PostgreSQL", "SQLite", "Netfilter", "REST", "Agile Methodologies", "SQL", "Ubuntu", "JBoss EAP", "Spring Integration", "Spring Security", "Java Enterprise Edition", "SOAP", "Oracle Database", "AngularJS", "Maven", "Thymeleaf", "Scrum", "Node.js"]
+    skills: ["Teamwork", "Python", "Java", "JavaScript", "Spring Framework", "MongoDB", "Linux System Administration", "HTML 5", "Android Development", "Django", "Git", "XML", "Swing", "Unix Administration", "PostgreSQL", "SQLite", "Netfilter", "REST", "Agile Methodologies", "SQL", "Ubuntu", "JBoss EAP", "Spring Integration", "Spring Security", "Java Enterprise Edition", "SOAP", "Oracle", "AngularJS", "Maven", "Thymeleaf", "Scrum", "Node.js"]
 }, {
     username: 'destabrook',
     firstName: 'Darrell',
@@ -122,7 +122,7 @@ const initalData = [{
     username: 'dgodwin',
     firstName: 'David',
     lastName: 'Godwin',
-    skills: ["Microsoft SQL Server", "C#", "WCF", "Team Leadership", "HTML + CSS", "JavaScript", "SQL Server", "Database Design", "SSRS", "Scuba Diving", "ASP.NET MVC", "jQuery", "Enterprise Architecture", "Application Development", "Application Architecture", "Web Design", "Web Development", "Photoshop", "Photography", "Commercial Photography", "Small Business", "Agile Methodologies", "Web Services", ".NET", "WPF", "Xamarin", "Microsoft Azure", "Business Intelligence", "Management", "Microsoft CRM", "SDLC", "Wedding Photography"]
+    skills: ["Microsoft SQL Server", "C#", "WCF", "Team Leadership", "HTML", "CSS", "JavaScript", "SQL Server", "Database Design", "SSRS", "Scuba Diving", "ASP.NET MVC", "jQuery", "Enterprise Architecture", "Application Development", "Application Architecture", "Web Design", "Web Development", "Photoshop", "Photography", "Commercial Photography", "Small Business", "Agile Methodologies", "Web Services", ".NET", "WPF", "Xamarin", "Microsoft Azure", "Business Intelligence", "Management", "Microsoft CRM", "SDLC", "Wedding Photography"]
 }, {
     username: 'vgriffin',
     firstName: 'Victoria',
@@ -172,7 +172,7 @@ const initalData = [{
     username: 'thenry',
     firstName: 'Troy',
     lastName: 'Henry',
-    skills: ["Program Management", "Integration", "Software Project Management", "Solution Architecture", "Consulting", "Business Process Improvement", "Requirements Analysis", "Business Analysis", "IT Strategy", "Management Consulting", "Product Management", "Enterprise Architecture", "Telecommunications", "Management", "Project Management", "Business Intelligence", "Agile Methodologies", "SDLC", "Open Source Software", "Software Development Life Cycle (SDLC)", "Business Process", "Strategy", "Vendor Management", "Project Management Office (PMO)", "Business Transformation"]
+    skills: ["Program Management", "Integration", "Software Project Management", "Solution Architecture", "Consulting", "Business Process Improvement", "Requirements Analysis", "Business Analysis", "IT Strategy", "Management Consulting", "Product Management", "Enterprise Architecture", "Telecommunications", "Management", "Project Management", "Business Intelligence", "Agile Methodologies", "SDLC", "Open Source", "Software Development Life Cycle (SDLC)", "Business Process", "Strategy", "Vendor Management", "Project Management Office (PMO)", "Business Transformation"]
 }, {
     username: 'lhobbs',
     firstName: 'Luke',
@@ -182,7 +182,7 @@ const initalData = [{
     username: 'jhogan',
     firstName: 'Jay',
     lastName: 'Hogan',
-    skills: ["Java", "Web Applications", "Software Development", "Web Development", "JavaScript", "AngularJS", "Groovy", "Agile Methodologies", "Test Driven Development", "SQL", "Hibernate", "NodeJS", "ASP.NET MVC", "Integration", "Ruby on Rails", "Spring", "Agile", "Scrum", "HTML", "jQuery", "Programming", "Grails", "C#", "Open Source", "Continuous Integration", "Agile Project Management", "Microsoft SQL Server", "Web Services", "Continuous Delivery", "Spring Framework"]
+    skills: ["Java", "Web Applications", "Software Development", "Web Development", "JavaScript", "AngularJS", "Groovy", "Agile Methodologies", "Test Driven Development", "SQL", "Hibernate", "Node.js", "ASP.NET MVC", "Integration", "Ruby on Rails", "Spring", "Agile", "Scrum", "HTML", "jQuery", "Programming", "Grails", "C#", "Open Source", "Continuous Integration", "Agile Project Management", "Microsoft SQL Server", "Web Services", "Continuous Delivery", "Spring Framework"]
 }, {
     username: 'mholley',
     firstName: 'Melody',
@@ -312,7 +312,7 @@ const initalData = [{
     username: 'jrobertson',
     firstName: 'Jason',
     lastName: 'Robertson',
-    skills: ["Change Management", "PMO", "Analysis", "Project Portfolio Management", "Strategic Planning", "Agile Coaching", "Scrum", "Strategy", "RFP", "Management", "Business Process", "Regulatory Affairs", "RFP Preparation", "Compliance", "Budgeting", "Fixed Income Trading", "Business Process Improvement", "Business Analysis"]
+    skills: ["Change Management", "PMO", "Analysis", "Project Portfolio Management", "Strategic Planning", "Agile Coaching", "Scrum", "Strategy", "RFP", "Management", "Business Process", "Regulatory Affairs", "RFP Preparation", "Compliance", "Budgets", "Fixed Income Trading", "Business Process Improvement", "Business Analysis"]
 }, {
     username: 'rshriver',
     firstName: 'Ryan',
@@ -342,7 +342,7 @@ const initalData = [{
     username: 'jtashner',
     firstName: 'Julie',
     lastName: 'Tashner',
-    skills: ["Business Analysis", "Software Implementation", "Project Management", "Management", "Databases", "Requirements Gathering", "Enterprise Software", "Process Improvement", "Training Delivery", "Testing", "Quality Assurance", "Analysis", "Consulting", "Integration", "Visio", "Software Quality Assurance", "SaaS", "Project Coordination", "Technical Support", "Staffing Industry", "Integrations", "Public Speaking", "Scheduling", "Gap Analysis", "Project Planning", "User Documentation", "Process Engineering", "Debugging Code", "Software Development Life Cycle (SDLC)"]
+    skills: ["Business Analysis", "Software Implementation", "Project Management", "Management", "Databases", "Requirements Gathering", "Enterprise Software", "Process Improvement", "Training Delivery", "Testing", "Quality Assurance", "Analysis", "Consulting", "Integration", "Visio", "Software Quality Assurance", "SaaS", "Project Coordination", "Technical Support", "Staffing Industry", "Integration", "Public Speaking", "Scheduling", "Gap Analysis", "Project Planning", "User Documentation", "Process Engineering", "Debugging Code", "Software Development Life Cycle (SDLC)"]
 }, {
     username: 'ktuskey',
     firstName: 'Kevin',

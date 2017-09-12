@@ -6,6 +6,13 @@ module.exports = {
     getEmployees
 }
 
-function getEmployees() {
-    return persistenceService.getEmployees();
+async function getEmployees() {
+    const employees = await persistenceService.getEmployees();
+    
+    return employees.map(y => ({
+        username: y.username,
+        firstName: y.firstName,
+        lastName: y.lastName,
+        skills: y.skills 
+    }));
 }

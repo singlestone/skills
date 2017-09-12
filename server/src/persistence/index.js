@@ -20,5 +20,5 @@ const connectionPromise = async function getMongoConnection() {
 
 async function getEmployees() {
     const db = await connectionPromise;
-    return await db.collection('employee').find();
+    return await db.collection('employee').find().toArray();
 }
