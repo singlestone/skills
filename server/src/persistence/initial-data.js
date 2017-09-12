@@ -1,4 +1,9 @@
 const initalData = [{
+    username: 'vathuluri',
+    firstName: 'Vijay',
+    lastName: 'Athuluri',
+    skills: ["C#", "ASP.NET MVC", "Azure Active Directory", "Microsoft SQL Server", "JavaScript", "LINQ", "Software Development", "Databases", "SDLC", "Requirements Analysis", "Project Management", "Agile Methodologies", "Integration", "Software Project Management", "SharePoint", "ASP.NET", "Analysis", "Software Engineering", "SQL", "Web Services", ".NET", "React.js", "CSS", "HTML", "Data Analysis", "ASP.NET Web API", "AngularJS", "Node.js", "RESTful WebServices", "AJAX", "Scrum", "jQuery", "Visual Studio", "Web Development", "SharePoint 2013", "WordPress", "Agile Project Management", "Database Design", "Software Design", "node.js"]
+}, {
     username: 'oarias',
     firstName: 'Orlando',
     lastName: 'Arias',
@@ -34,6 +39,16 @@ const initalData = [{
     lastName: 'Byrd',
     skills: ["Leadership", "Strategy", "Building Relationships", "Leadership Development", "Process Improvement", "Project Management", "Management", "Sales", "Program Management", "Technical Recruiting", "Training", "Vendor Management", "Marketing", "Strategic Planning", "Team Synergy"]
 }, {
+    username: 'wcameron',
+    firstName: 'Wade',
+    lastName: 'Cameron',
+    skills: ["Six Sigma", "Management", "Process Improvement", "Customer Service", "Analysis", "Financial Analysis", "Microsoft Excel", "Team Building", "Inventory Management", "Cross-functional Team Leadership", "Accounts Receivable", "Strategy", "Consulting", "Budgets", "Sales", "Program Management", "Leadership", "Project Management", "PowerPoint", "Visio", "Excel", "Visual Basic"]
+}, {
+    username: 'tchapman',
+    firstName: 'Trevor',
+    lastName: 'Chapman',
+    skills: ["Node.js", "Windows Azure", "MongoDB", "Cloud Computing", "APIs", "Web Development", "HTML", "JavaScript", "Web Design", "Cascading Style Sheets (CSS)", "jQuery", "Graphic Design", "User Interface Design", "Adobe Creative Suite", "SASS", "AngularJS", "Web Applications", "Git", "Front-end Development", "Representational State Transfer (REST)", "CSS", "User Experience"]
+}, {
     username: 'bcheatham',
     firstName: 'Blake',
     lastName: 'Cheatham',
@@ -43,6 +58,11 @@ const initalData = [{
     firstName: 'Jimmy',
     lastName: 'Chou',
     skills: ["Strategy", "Program Management", "Management", "Leadership", "Process Improvement", "Business Process Improvement", "Consulting", "IT Strategy", "Business Analysis", "CRM", "Strategic Planning", "Change Management", "Project Management", "Management Consulting", "Financial Services", "Investments", "Financial Analysis", "Portfolio Management", "Fundraising", "Enterprise Architecture", "Agile Methodologies", "Business Strategy", "Customer Relationship Management (CRM)", "Team Leadership", "Business Process Re-engineering", "Analytics", "Valuation", "Entrepreneurship", "Business Process", "Organizational Development", "Data Analysis", "Acquisition Integration", "Agile Project Management", "Six Sigma"]
+}, {
+    username: 'mcombs',
+    firstName: 'Mark',
+    lastName: 'Combs',
+    skills: ["Management", "Program Management", "Project Management", "Unix", "Windows", "XSLT", "XML", "XML Schema", "Oxygen XML Editor", "Data Analysis", "Analysis", "Business Analysis", "Process Improvement", "Requirements Analysis", "New Business Development", "Vendor Management", "Business Development", "OpenText Exstream", "GMC"]
 }, {
     username: 'kcooper',
     firstName: 'Kate',
@@ -79,10 +99,20 @@ const initalData = [{
     lastName: 'Elmore',
     skills: ["Project Management", "Process Improvement", "Program Management", "Management", "Strategic Planning", "Analysis", "Project Planning", "Management Consulting", "Training", "Microsoft Excel", "Budgets", "Public Speaking", "Healthcare", "Change Management", "Business Development", "Teamwork", "Contract Negotiation", "Business Acumen", "Time Management", "Staff Development", "Process Scheduler", "Negotiation", "Scrum", "Executive Positions", "Projects"]
 }, {
+    username: 'oely',
+    firstName: 'Oren',
+    lastName: 'Ely',
+    skills: ["Teamwork", "Python", "Java", "JavaScript", "Spring Framework", "MongoDB", "Linux System Administration", "HTML 5", "Android Development", "Django", "Git", "XML", "Swing", "Unix Administration", "PostgreSQL", "SQLite", "Netfilter", "REST", "Agile Methodologies", "SQL", "Ubuntu", "JBoss EAP", "Spring Integration", "Spring Security", "Java Enterprise Edition", "SOAP", "Oracle Database", "AngularJS", "Maven", "Thymeleaf", "Scrum", "Node.js"]
+}, {
     username: 'destabrook',
     firstName: 'Darrell',
     lastName: 'Estabrook',
     skills: ["Art Direction", "UX", "Web Application Design", "User Interface Design", "Web Design", "Graphic Design", "Information Architecture", "Usability Engineering", "Agile Methodologies", "Web Development", "XHTML", "CSS", "jQuery", "SharePoint", "User Experience", "Agile Project Management", "Business Analysis", "Software Development", "User Interface", "Advertising", "Scrum", "Online Marketing", "Usability Testing"]
+}, {
+    username: 'rfriedberg',
+    firstName: 'Ryan',
+    lastName: 'Friedberg',
+    skills: ["Program Evaluation", "Public Health", "Data Analysis", "Grant Writing", "Statistics", "SPSS", "Community Outreach", "Clinical Research", "Epidemiology", "Grants", "Consulting", "Microsoft Office", "Public Speaking", "Supervisory Experience", "Program Management", "Research", "Analysis", "Leadership", "R", "JMP", "Database Design", "Hootsuite", "Business Analysis", "Predictive Modeling", "SAS", "Python", "Project Management", "SQL", "PostgreSQL", "MongoDB"]
 }, {
     username: 'jgarrity',
     firstName: 'Jim',
@@ -94,10 +124,20 @@ const initalData = [{
     lastName: 'Godwin',
     skills: ["Microsoft SQL Server", "C#", "WCF", "Team Leadership", "HTML + CSS", "JavaScript", "SQL Server", "Database Design", "SSRS", "Scuba Diving", "ASP.NET MVC", "jQuery", "Enterprise Architecture", "Application Development", "Application Architecture", "Web Design", "Web Development", "Photoshop", "Photography", "Commercial Photography", "Small Business", "Agile Methodologies", "Web Services", ".NET", "WPF", "Xamarin", "Microsoft Azure", "Business Intelligence", "Management", "Microsoft CRM", "SDLC", "Wedding Photography"]
 }, {
+    username: 'vgriffin',
+    firstName: 'Victoria',
+    lastName: 'Griffin',
+    skills: ["Illustrator", "InDesign", "Social Media", "Graphic Design", "Web Design", "Photoshop", "HTML", "Calligraphy", "Hand-lettering", "Microsoft Word", "PowerPoint", "Xcode", "Keynote", "Microsoft Excel", "AutoCAD", "Revit", "Java", "C++", "Microsoft Office", "Photography", "Adobe Creative Suite", "Logo Design"]
+}, {
     username: 'khall',
     firstName: 'Kate',
     lastName: 'Hall',
     skills: ["Leadership", "Strategy", "Social Media Marketing", "Management", "Social Media", "Marketing", "Project Management", "Strategic Planning", "Training", "Recruiting", "Public Speaking", "Advertising", "Vendor Management", "Social Networking", "Cross-functional Team Leadership", "Change Management", "Blogging", "Team Building", "Team Leadership", "Entrepreneurship", "Marketing Communications", "Email Marketing", "Marketing Strategy", "Public Relations", "Sales Management", "Event Planning", "Online Marketing", "Integration", "Coaching", "Small Business", "Copywriting", "Market Research", "New Business Development", "Account Management", "Leadership Development", "Onboarding", "PMP", "Temporary Placement", "Start-ups", "Facebook", "Corporate Communications", "Business Strategy", "Lead Generation", "Marketing Management", "Content Strategy", "Online Advertising", "Strategic Communications", "Internal Communications", "Brand Development", "Brand Management"]
+}, {
+    username: 'mhanratta',
+    firstName: 'Matt',
+    lastName: 'Hanratta',
+    skills: ["Project Management", "Time Management", "Teamwork", "Microsoft Office", "Public Speaking", "Research", "Data Analysis", "Windows", "HTML", "Software Implementation", "Customer Service", "Microsoft Excel", "Leadership", "Visio", "JavaScript", "Web Design", "PowerPoint", "Social Media", "Management", "PXE", "Novell", "Virtual Assistance", "DBMS", "Video Editing", "Photoshop", "User Experience Testing", "Web Content Management", "Social Networking", "Computer Hardware", "MySQL", "XML", "Video Production", "Photography", "User Experience Design", "User Interface Design", "SQL", "Networking", "Java"]
 }, {
     username: 'jhansen',
     firstName: 'Jeff',
@@ -119,10 +159,20 @@ const initalData = [{
     lastName: 'Hauser',
     skills: ["Banking", "Portfolio Management", "Financial Services", "Strategy", "Management", "Strategic Planning", "Finance", "Risk Management", "Process Improvement", "Mergers & Acquisitions", "Leadership", "Team Building", "Mortgage Lending", "Business Development", "Credit", "Operations Management", "Loans", "CRM", "Start-ups", "Business Strategy", "Executive Management", "Strategic Consulting", "Entrepreneurship", "Business Process Improvement", "Change Management", "Venture Capital", "Project Management", "Program Management", "Financial Analysis", "Management Consulting", "Small Business", "Negotiation", "Business Planning", "Product Management", "Cross-functional Team Leadership", "Financial Risk", "Insurance", "Analysis", "Budgets", "Underwriting", "Mortgage", "Entrepreneurial Experience"]
 }, {
+    username: 'shawthorne',
+    firstName: 'Suzanne',
+    lastName: 'Hawthorne',
+    skills: ["Project Management", "Integration", "Risk Management", "Management", "Change Management", "PMO", "Cross-functional Team Leadership", "Project Planning", "Leadership", "Program Management", "Business Process Improvement", "Process Improvement", "Business Analysis", "SDLC", "Agile Methodologies", "Team Building", "Requirements Gathering", "Budgets", "Training", "Project Portfolio Management", "Software Project Management", "MS Project", "Service Delivery", "Management Consulting", "Project Delivery", "Consulting", "Business Process", "Analysis", "Strategy", "Business Intelligence", "Information Technology", "IT Strategy", "Strategic Planning", "Business Development", "Financial Services"]
+}, {
     username: 'khendricks',
     firstName: 'Kate',
     lastName: 'Hendricks',
     skills: ["Marketing Communications", "Marketing", "Marketing Strategy", "Integrated Marketing", "Strategy", "Product Development", "Leadership", "New Business Development", "Management", "Product Marketing", "Email Marketing", "Advertising", "Sales", "Market Planning", "Business Strategy", "Account Management", "Social Media Marketing", "Strategic Planning", "Public Relations", "Project Management", "Cross-functional Team Leadership", "Product Management", "Copywriting", "Event Management", "B2B", "Corporate Communications", "Team Leadership", "Selling", "Market Analysis", "Marketing Management", "Team Building", "Media Relations", "Competitive Analysis", "Key Account Management", "Sales Process", "Social Media", "Negotiation", "Brand Management", "Brand Development", "Direct Sales", "Sales Operations", "Digital Marketing", "Sales Management", "Business Development", "Budgets", "Sales Presentations", "Product Launch", "Market Research", "Lead Generation", "Press Releases"]
+}, {
+    username: 'thenry',
+    firstName: 'Troy',
+    lastName: 'Henry',
+    skills: ["Program Management", "Integration", "Software Project Management", "Solution Architecture", "Consulting", "Business Process Improvement", "Requirements Analysis", "Business Analysis", "IT Strategy", "Management Consulting", "Product Management", "Enterprise Architecture", "Telecommunications", "Management", "Project Management", "Business Intelligence", "Agile Methodologies", "SDLC", "Open Source Software", "Software Development Life Cycle (SDLC)", "Business Process", "Strategy", "Vendor Management", "Project Management Office (PMO)", "Business Transformation"]
 }, {
     username: 'lhobbs',
     firstName: 'Luke',
@@ -134,6 +184,11 @@ const initalData = [{
     lastName: 'Hogan',
     skills: ["Java", "Web Applications", "Software Development", "Web Development", "JavaScript", "AngularJS", "Groovy", "Agile Methodologies", "Test Driven Development", "SQL", "Hibernate", "NodeJS", "ASP.NET MVC", "Integration", "Ruby on Rails", "Spring", "Agile", "Scrum", "HTML", "jQuery", "Programming", "Grails", "C#", "Open Source", "Continuous Integration", "Agile Project Management", "Microsoft SQL Server", "Web Services", "Continuous Delivery", "Spring Framework"]
 }, {
+    username: 'mholley',
+    firstName: 'Melody',
+    lastName: 'Holley',
+    skills: ["Program Management", "Process Improvement", "Project Management", "Six Sigma", "Training", "Cross-functional Team Leadership", "Management", "Leadership", "Project Planning", "PMP", "Proposal Writing", "Strategy", "Change Management", "Business Process Improvement", "Project Management Professional", "Military", "DoD", "Six Sigma Master Black Belt", "Software Documentation", "Myers-Briggs Certified", "Integration", "Change Management Certified", "Certified ISO 9001 Auditor", "Certified Facilitator & Trainer Creative Problem Solving", "Kirton Adaption Innovation Inventory Certified"]
+}, {
     username: 'ghollins',
     firstName: 'Gray',
     lastName: 'Hollins',
@@ -144,10 +199,20 @@ const initalData = [{
     lastName: 'Hurley-Brown',
     skills: ["Graphic Design", "Logo Design", "Typography", "Art Direction", "Advertising", "Illustration", "Adobe Creative Suite", "Creative Direction", "Illustrator", "Photoshop", "Multimedia", "Brochures", "Web Design", "Graphics", "Branding & Identity", "Visual Communication", "InDesign", "Art", "Adobe Illustrator", "Newsletters", "Brand Development", "Concept Development", "Digital Illustration", "Corporate Identity", "Online Marketing", "Corporate Branding", "Collateral", "Adobe Photoshop", "Page Layout", "Layout", "User Interface Design", "Interaction Design", "Image Manipulation", "Mac", "Logos", "Invitations", "Posters", "Non-profits", "Flyers", "Business Cards", "Packaging", "Banners", "Stationery", "Direct Mail", "Annual Reports", "Retouching", "Postcards", "Letterhead", "Print Production", "UX"]
 }, {
+    username: 'mjoseph',
+    firstName: 'Melissa',
+    lastName: 'Joseph',
+    skills: ["Sales", "Account Management", "CRM", "Strategy", "Sales Management", "Salesforce.com", "SaaS", "Sales Process", "Sales Operations", "Business Strategy", "Marketing", "Cloud Computing", "Lead Generation", "Solution Selling", "Enterprise Software", "Marketing Strategy", "Team Building", "Strategic Partnerships", "Cold Calling", "Professional Services", "Management", "Software as a Service (SaaS)", "Customer Relationship Management (CRM)", "Contract Negotiation", "Selling", "Information Technology", "Managed Services", "Leadership", "Recruiting", "Real Estate", "Ethical Leadership", "SOLID Principles", "New Business Development", "IT Security Best Practices", "Consulting", "Customer Experience", "Digital Strategy", "Change Management"]
+}, {
     username: 'jkabel',
     firstName: 'Jay',
     lastName: 'Kabel',
     skills: ["Software Development", "Databases", "Enterprise Software", "Perl", "Integration", "Linux", ".NET", "Testing", "Software Project Management", "High Performance Computing", "Mobile Applications", "C#", "Java", "Python", "ASP.NET", "Agile Methodologies", "Shell Scripting", "IIS", "SDLC", "Microsoft SQL Server", "Visio", "WCF", "Information Technology Strategy", "Business Strategy", "Organizational Management", "Team Management", "Process Improvement", "Pricing Strategy", "Web Applications", "Fortran", "Ruby", "Enterprise Content Management", "Scientific Applications", "C++", "Presentations", "Management", "Parallel Programming", "Distributed Systems", "SQL"]
+}, {
+    username: 'skamguia',
+    firstName: 'Senghor',
+    lastName: 'Kamguia',
+    skills: ["C#", "ASP.NET MVC", "ASP.NET", "C++", "Programming", "Matlab", "JavaScript", "HTML", "Python", "Electrical Engineering", "Microsoft Dynamics", "Databases", "C", "Troubleshooting", "Database-driven Web Applications", "Analysis", "Operating Systems", "Microsoft SQL Server", "Visual Studio", "Electronics", "Data Analysis", "Computer Hardware", "x86 Assembly", "Microsoft Office", "Electronics Workbench", "Unix", "Windows", "Computer Architecture", "TCP/IP", "SQL Server Management Studio", "Web Development", "Wireshark", "Multisim", "Word", "Excel", "Security", "Mac OS X", "MS Office Suite", "Labview", "Mathematics", "HTML 5", "Django", "MySQL", "Microsoft CRM", "MAMP", "Microsoft Word", "PowerPoint", "Microsoft Excel", "Agile Application Development", "Microsoft PowerPoint"]
 }, {
     username: 'ckeeton',
     firstName: 'Chrissy',
@@ -164,15 +229,30 @@ const initalData = [{
     lastName: 'Lowe',
     skills: ["Human Resources", "Customer Service", "Microsoft Office", "PowerPoint", "Military", "Leadership", "Security Clearance", "Team Building", "Microsoft Excel", "Government", "Project Management", "Microsoft Word", "Research", "Outlook", "Sales", "Program Management", "Management", "Process Improvement", "Project Planning"]
 }, {
+    username: 'tlong',
+    firstName: 'Taylor',
+    lastName: 'Long',
+    skills: ["Leadership", "Microsoft Office", "Social Networking", "Management", "Recruiting", "Sports", "Social Media", "Training", "Public Speaking", "Event Planning", "Customer Service", "Editing", "PowerPoint", "Social Media Marketing", "Research", "Public Relations", "Program Management", "Technical Recruiting"]
+}, {
     username: 'tmalkus',
     firstName: 'Tyler',
     lastName: 'Malkus',
     skills: ["Agile Methodologies", "Software Development", "Requirements Analysis"]
 }, {
+    username: 'smarcus',
+    firstName: 'Sarah',
+    lastName: 'Marcus',
+    skills: ["Data Analysis", "Management", "Strategy", "Financial Modeling", "Financial Analysis", "SQL", "Consulting", "Project Management", "Process Improvement", "Recruiting", "Litigation Consulting", "Employee Training", "CSM", "Agile Methodologies", "Business Analysis", "Public Speaking", "Management Consulting", "Business Process Improvement"]
+}, {
     username: 'cmassie',
     firstName: 'Chris',
     lastName: 'Massie',
     skills: ["Agile Methodologies", "ASP.NET MVC", "REST", "ASP.NET", "Microsoft SQL Server", "Scrum", "Sitecore", "Coveo", "Web Services", "TFS", "C#", "WCF", "Web Development", "LINQ", "Software Development", "Database Design", "JSON", "SOA", "XML", "SQL Server", "jQuery", "NHibernate", "Visual Studio", "SQL", "Agile", "Database Development", "Github", "Oracle", "MongoDB", ".NET", "Management", "SDLC", "JavaScript", "Leadership", "Requirements Analysis", "Consulting"]
+}, {
+    username: 'mmcghan',
+    firstName: 'Matt',
+    lastName: 'McGhan',
+    skills: ["Adobe Creative Suite", "Marketing Communications", "Graphic Design", "Social Media", "Photography", "Creative Direction", "Photoshop", "Editing", "Website Development", "Advertising", "Web Design", "Blogging", "Email Marketing", "WordPress", "Illustrator", "Multimedia", "InDesign", "Mac"]
 }, {
     username: 'jmcveigh',
     firstName: 'Josh',
@@ -199,15 +279,45 @@ const initalData = [{
     lastName: 'Nicolosi',
     skills: [".NET", "ASP.NET MVC", "C#", "AngularJS", "JavaScript", "jQuery", "SignalR", "Agile Methodologies", "Software Development", "Microsoft Visual Studio", "Integration", "HTML", "CSS", "Databases", "Microsoft SQL Server", "Oracle", "SQL", "Unix", "Agile Project Management", "Testing", "Java", "Business Analysis", "Agile", "Eclipse", "Java Enterprise Edition", "Scrum", "Solution Architecture", "TCL", "Subversion", "Jenkins", "Grails", "Groovy", "Microsoft CRM", "Software Engineering", "Requirements Gathering", "SDLC", "Microsoft Dynamics CRM 2011", "TFS", "Git", "Visual Studio", "Requirements Analysis"]
 }, {
+    username: 'vnilsen',
+    firstName: 'Victoria',
+    lastName: 'Nilsen',
+    skills: ["Business Analysis", "Testing", "Software Documentation", "Quality Assurance", "Software Development", "SDLC", "Integration", "Analysis", "Process Improvement", "Project Management", "SQL", "Requirements Gathering"]
+}, {
+    username: 'snorthern',
+    firstName: 'Stephanie',
+    lastName: 'Northern',
+    skills: ["Recruiting", "Interviews", "Human Resources", "Management", "Management Consulting", "Applicant Tracking Systems", "College Recruiting", "Talent Acquisition", "Staffing Services", "Onboarding", "Technical Recruiting", "Employee Relations", "Training", "Business Development", "Networking", "Talent Management", "Employee Benefits", "Social Networking", "Contract Recruitment", "New Hire Orientations", "Social Media", "Candidate Retention"]
+}, {
     username: 'bpeppers',
     firstName: 'Brenda',
     lastName: 'Peppers',
     skills: ["Process Improvement", "Program Management", "Project Management", "Leadership", "Operations Management", "Management", "Management Consulting", "Business Process Improvement", "Project Planning", "Change Management", "Team Leadership", "Six Sigma", "Strategy", "Business Analysis", "Cross-functional Team Leadership", "Business Strategy", "Risk Management", "Vendor Management", "Integration", "MS Project", "Strategic Planning", "Business Intelligence", "IT Strategy", "SDLC", "Account Management", "Financial Modeling", "Training", "Team Building", "Performance Management", "Process Engineering", "Insurance", "Data Analysis", "Sales Management", "Outsourcing"]
 }, {
+    username: 'mponzio',
+    firstName: 'Matthew',
+    lastName: 'Ponzio',
+    skills: ["DNS", "Servers", "Windows Server", "Active Directory", "Cisco Technologies", "VMware", "Virtualization", "Cloud Computing", "Disaster Recovery", "DHCP", "Data Center", "Firewalls", "Networking", "VPN", "Routers", "Switches", "System Deployment", "WAN", "TCP/IP", "Troubleshooting", "CCNA", "Technical Support", "Microsoft Exchange", "ITIL", "Hardware", "Routing", "Windows XP", "Security", "Integration", "Operating Systems", "Cisco IOS", "LAN-WAN", "OSPF", "Cisco Nexus", "Cisco Routers", "Cisco Firewall Security", "F5 BigIP", "DNS Management", "DNS Administration", "Catalyst Switches", "Cisco VPN", "Routing Protocols", "Amazon Web Services (AWS)", "Ecessa Powerlink", "Talari APN"]
+}, {
+    username: 'trhodes',
+    firstName: 'Tricia',
+    lastName: 'Rhodes',
+    skills: ["Recruiting", "Interviews", "Leadership", "Management", "Vendor Management", "Onboarding", "Technical Recruiting", "Talent Acquisition", "Marketing", "Applicant Tracking Systems", "Sales", "College Recruiting", "Sourcing", "Negotiation"]
+}, {
+    username: 'mrivera',
+    firstName: 'Melanie',
+    lastName: 'Rivera',
+    skills: ["Accounts Receivable", "QuickBooks", "Payroll", "Accounts Payable", "Invoicing", "Accounting", "Customer Service", "Human Resources", "Management", "Financial Statements", "Account Reconciliation", "General Ledger", "Employee Benefits", "Client Billing", "ADP Payroll", "Outlook", "Access", "Accruals", "Journal Entries", "Cash Management", "Microsoft Office", "Finance", "Business Process Improvement", "Microsoft Excel", "Administrative Assistance", "Expenses", "Time Management", "Process Improvement"]
+}, {
     username: 'jrobertson',
     firstName: 'Jason',
     lastName: 'Robertson',
     skills: ["Change Management", "PMO", "Analysis", "Project Portfolio Management", "Strategic Planning", "Agile Coaching", "Scrum", "Strategy", "RFP", "Management", "Business Process", "Regulatory Affairs", "RFP Preparation", "Compliance", "Budgeting", "Fixed Income Trading", "Business Process Improvement", "Business Analysis"]
+}, {
+    username: 'rshriver',
+    firstName: 'Ryan',
+    lastName: 'Shriver',
+    skills: ["Agile Methodologies", "Scrum", "Integration", "Agile Project Management", "Software Development", "Java", "SDLC", "Web Development", "Business Analysis", "Project Management", "Cloud Computing", "Consulting", "Enterprise Architecture", "Process Improvement", "E-commerce", "Program Management", "Requirements Analysis", "Software Project Management", "Product Management", "Management", "Quality Assurance", "Start-ups", "Software Engineering", "Architectures", "Requirements Gathering", "Systems Analysis", "Distributed Systems", "Open Source", "Solution Architecture"]
 }, {
     username: 'ssmith',
     firstName: 'Sam',
@@ -244,25 +354,30 @@ const initalData = [{
     lastName: 'Van Landingham',
     skills: ["Process Improvement", "Change Management", "Leadership", "Management", "Vendor Management", "Program Management", "Training", "Business Analysis", "Agile Methodologies", "Project Planning", "Business Process Improvement", "Financial Services", "PMP", "Agile Project Management", "Risk Management", "Coaching", "Project Portfolio Management", "Project Management"]
 }, {
+    username: 'mwaldau',
+    firstName: 'Matt',
+    lastName: 'Waldau',
+    skills: ["Business Transformation", "Insurance", "Change Management", "Integration", "Management Consulting", "Business Strategy", "Consulting", "Requirements Gathering", "Business Process Improvement", "Business Analysis", "Process Improvement", "Management", "Document Management", "Program Management", "Healthcare", "Outsourcing", "Project Management", "Vendor Management", "Leadership", "Vendor Relations", "CCM"]
+}, {
     username: 'awenzel',
     firstName: 'Anthony',
     lastName: 'Wenzel',
     skills: ["Agile Methodologies", "Program Management", "Integration", "Management", "Leadership", "Business Analysis", "Software Development", "Management Consulting", "Business Development", "Consulting", "Team Leadership", "Product Development", "SDLC", "Software Project Management", "Enterprise Architecture", "Scrum", "SharePoint", "IT Strategy", "Agile Project Management", "Microsoft SQL Server", "Coaching", "Architectures"]
+}, {
+    username: 'pwenzler',
+    firstName: 'Paul',
+    lastName: 'Wenzler',
+    skills: ["Process Improvement", "Management", "PMP", "Six Sigma", "Healthcare", "Business Strategy", "Insurance", "Project Planning", "Management Consulting", "Strategic Planning", "Program Management", "Business Analysis", "Cross-functional Team Leadership", "Business Process Improvement", "Project Management", "PMO", "Vendor Management", "Lean Initiatives", "Compliance", "Quality"]
+}, {
+    username: 'cwolfe',
+    firstName: 'Carter',
+    lastName: 'Wolfe',
+    skills: ["Software Engineering", "MVC", "ASP.NET MVC", "Microsoft SQL Server", "AngularJS", "HTML", "AJAX", "jQuery", "JavaScript", "C#", ".NET", "SQL", "Software Development", "Entity Framework", "Web Development", "3rd Party Software Integration", "JSON", "IIS", "LINQ", "SignalR", "Application Development", "CSS", "Music Production", "ASP.NET", "Tortoise SVN", "NHibernate", "Agile Application Development", "Agile Methodologies", "Applicant Tracking Systems", "MongoDB", "Object Oriented Design", "N-tier", "Continuous Integration", "SQL Server", "Amazon Web Services (AWS)", "Systems Analysis", "Node.js", "Data Modeling", "Git", "C++", "Audio Editing", "Audio Post Production", "Mastering", "HTML 5", "Scrum", "REST", "SDLC", "Databases", "Visual Studio", "T-SQL"]
 }, {
     username: 'ayoung',
     firstName: 'Aretina',
     lastName: 'Young',
     skills: ["Business Analysis", "Business Process Improvement", "Project Management", "Process Engineering", "Agile Methodologies", "Integration", "IT Strategy", "Change Management", "Risk Management", "Requirements Analysis", "Agile Project Management", "Leadership", "Strategy", "Visio"]
 }];
-
-initalData.sort((a, b) => {
-    if(a.username < b.username) {
-        return -1;
-    }
-    else if(a.username > b.username) {
-        return 1;
-    }
-    return 0;
-});
 
 module.exports = initalData;
