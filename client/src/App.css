@@ -34,8 +34,8 @@
 }
 
 .employee-wrapper .profile {
-  flex: 0 0 120px;
-  height: 120px;
+  flex: 0 0 60px;
+  height: 60px;
   border-radius: 50%;
   overflow: hidden;
   background: #c0c0c0;
@@ -49,13 +49,13 @@
   display: block;
   width: 100%;
   text-align: center;
-  font-size: 56px;
-  line-height: 120px;
+  font-size: 28px;
+  line-height: 60px;
 }
 
 .employee-wrapper .profile img {
-  height: 120px;
-  width: 120px;
+  height: 60px;
+  width: 60px;
   text-indent:-9999px;
 }
 
