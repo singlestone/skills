@@ -21,16 +21,18 @@
 }
 
 .employees {
-  margin-top: 85px;
+  margin: 85px 0 0;
+  padding-left: 12px;
 }
 
 .employee-wrapper {
   color: #4c4b4c;
   display: flex;
-  margin-left: 16px;
   letter-spacing: 0.03em;
   padding: 16px 0;
   border-bottom: 1px solid #d5d5d5;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .employee-wrapper .profile {
@@ -114,4 +116,7 @@ h3 span, li span {
   padding: 14px 14px 14px 30px;
   width: 100%;
   font-size: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  display: block;
 }
