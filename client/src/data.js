@@ -3,7 +3,7 @@ export default [
         username: 'vathuluri',
         firstName: 'Vijay',
         lastName: 'Athuluri',
-        skills: ["C#", "ASP.NET MVC", "Azure Active Directory", "Microsoft SQL Server", "JavaScript", "LINQ", "Software Development", "Databases", "SDLC", "Requirements Analysis", "Project Management", "Agile Methodologies", "Integration", "Software Project Management", "SharePoint", "ASP.NET", "Analysis", "Software Engineering", "SQL", "Web Services", ".NET", "React.js", "CSS", "HTML", "Data Analysis", "ASP.NET Web API", "AngularJS", "Node.js", "REST", "AJAX", "Scrum", "jQuery", "Visual Studio", "Web Development", "SharePoint 2013", "WordPress", "Agile Project Management", "Database Design", "Software Design", "Node.js"]
+        skills: ["C#", "ASP.NET MVC", "Azure Active Directory", "Microsoft SQL Server", "JavaScript", "LINQ", "Software Development", "Databases", "SDLC", "Requirements Analysis", "Project Management", "Agile Methodologies", "Integration", "Software Project Management", "SharePoint", "ASP.NET", "Analysis", "Software Engineering", "SQL", "Web Services", ".NET", "React.js", "CSS", "HTML", "Data Analysis", "ASP.NET Web API", "AngularJS", "Node.js", "REST", "AJAX", "Scrum", "jQuery", "Visual Studio", "Web Development", "SharePoint 2013", "WordPress", "Agile Project Management", "Database Design", "Software Design"]
     }, {
         username: 'oarias',
         firstName: 'Orlando',
@@ -48,7 +48,7 @@ export default [
         username: 'tchapman',
         firstName: 'Trevor',
         lastName: 'Chapman',
-        skills: ["Node.js", "Windows Azure", "MongoDB", "Cloud Computing", "APIs", "Web Development", "HTML", "JavaScript", "Web Design", "CSS", "jQuery", "Graphic Design", "User Interface Design", "Adobe Creative Suite", "SASS", "AngularJS", "Web Applications", "Git", "Front-end Development", "REST", "CSS", "User Experience"]
+        skills: ["Node.js", "Windows Azure", "MongoDB", "Cloud Computing", "APIs", "Web Development", "HTML", "JavaScript", "Web Design", "CSS", "jQuery", "Graphic Design", "User Interface Design", "Adobe Creative Suite", "SASS", "AngularJS", "Web Applications", "Git", "Front-end Development", "REST", "User Experience"]
     }, {
         username: 'bcheatham',
         firstName: 'Blake',
@@ -88,7 +88,7 @@ export default [
         username: 'bcrouse',
         firstName: 'Ben',
         lastName: 'Crouse',
-        skills: ["C#", "LINQ", "ASP.NET", "JavaScript", "Web Services", "SQL", "jQuery", "HTML", "ASP.NET MVC", ".NET", "Visual Studio", "XML", "T-SQL", "VB.NET", "WCF", "TFS", "AJAX", "Visual Basic .NET (VB.NET)", "LINQ", "Windows Communication Foundation (WCF)", "Team Foundation Server (TFS)", "Transact-SQL (T-SQL)", "Test Driven Development", ".NET"]
+        skills: ["C#", "ASP.NET", "JavaScript", "Web Services", "SQL", "jQuery", "HTML", "ASP.NET MVC", "Visual Studio", "XML", "T-SQL", "VB.NET", "WCF", "TFS", "AJAX", "Visual Basic .NET (VB.NET)", "LINQ", "Windows Communication Foundation (WCF)", "Team Foundation Server (TFS)", "Transact-SQL (T-SQL)", "Test Driven Development", ".NET"]
     }, {
         username: 'ldunning',
         firstName: 'Laura',
@@ -343,7 +343,7 @@ export default [
         username: 'jtashner',
         firstName: 'Julie',
         lastName: 'Tashner',
-        skills: ["Business Analysis", "Software Implementation", "Project Management", "Management", "Databases", "Requirements Gathering", "Enterprise Software", "Process Improvement", "Training Delivery", "Testing", "Quality Assurance", "Analysis", "Consulting", "Integration", "Visio", "Software Quality Assurance", "SaaS", "Project Coordination", "Technical Support", "Staffing Industry", "Integration", "Public Speaking", "Scheduling", "Gap Analysis", "Project Planning", "User Documentation", "Process Engineering", "Debugging Code", "Software Development Life Cycle (SDLC)"]
+        skills: ["Business Analysis", "Software Implementation", "Project Management", "Management", "Databases", "Requirements Gathering", "Enterprise Software", "Process Improvement", "Training Delivery", "Testing", "Quality Assurance", "Analysis", "Consulting", "Visio", "Software Quality Assurance", "SaaS", "Project Coordination", "Technical Support", "Staffing Industry", "Integration", "Public Speaking", "Scheduling", "Gap Analysis", "Project Planning", "User Documentation", "Process Engineering", "Debugging Code", "Software Development Life Cycle (SDLC)"]
     }, {
         username: 'ktuskey',
         firstName: 'Kevin',
