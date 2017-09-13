@@ -85,7 +85,7 @@ class SkillSearch extends Component {
 
               return (
                   <div className="employee-wrapper" key={employee.id}>
-                      <div className="profile">
+                      <div className={employee.photo ? "profile photo" : "profile"}>
                           {employee.photo ? <img src={employee.photo} alt={employee.fullName}/> : <span>{employee.initials}</span>}
                       </div>
                       <div className="details">
