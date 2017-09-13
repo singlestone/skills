@@ -2,80 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="458584c7-9306-43cb-b50e-c5d0be27f589" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/asset-manifest.json" afterPath="$PROJECT_DIR$/docs/asset-manifest.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/favicon.ico" afterPath="$PROJECT_DIR$/docs/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/manifest.json" afterPath="$PROJECT_DIR$/docs/manifest.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Arias_Orlando.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Arias_Orlando.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Artus_Daniel.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Artus_Daniel.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Athuluri_Vijay.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Athuluri_Vijay.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Bachmann_Jordan.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Bachmann_Jordan.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Belyea_Chris.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Belyea_Chris.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Bennett_Jeff.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Bennett_Jeff.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Blake_Kris.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Blake_Kris.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Bowen-Cates_Mary.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Bowen-Cates_Mary.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Buckley_Cat.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Buckley_Cat.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Cameron_Wade.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Cameron_Wade.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Carr_Derek.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Carr_Derek.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Cheatham_Blake.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Cheatham_Blake.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Chou_Jimmy.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Chou_Jimmy.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Coppinger_Kelly.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Coppinger_Kelly.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Cox_Emily.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Cox_Emily.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Dart_David.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Dart_David.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Druker_Stephanie.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Druker_Stephanie.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Dunning_Laura.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Dunning_Laura.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Elmore_Andrew.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Elmore_Andrew.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Ely_Oren.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Ely_Oren.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Estabrook_Darrell.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Estabrook_Darrell.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Garrity_Jim.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Garrity_Jim.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Godwin_David.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Godwin_David.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Godwin_John.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Godwin_John.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Griffin_Victoria.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Griffin_Victoria.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Hansen_Jeff.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Hansen_Jeff.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Hatzikotelis_George.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Hatzikotelis_George.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Haun_Jeremy.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Haun_Jeremy.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Hauser_Keith.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Hauser_Keith.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Hawthorne_Suzanne.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Hawthorne_Suzanne.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Henry_Troy.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Henry_Troy.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Hobbs_Luke.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Hobbs_Luke.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Hogan_Jay.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Hogan_Jay.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Holley_Melody.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Holley_Melody.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Hollins_Gray.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Hollins_Gray.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Hurley-Brown_Erin.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Hurley-Brown_Erin.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Kamguia_Senghor.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Kamguia_Senghor.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Keeton_Chrissy.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Keeton_Chrissy.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Little_Chris.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Little_Chris.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Malkus_Tyler.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Malkus_Tyler.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Marcus_Sara.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Marcus_Sara.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Massie_Chris.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Massie_Chris.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_McVeigh_Josh.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_McVeigh_Josh.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Mieczakowski_Cass.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Mieczakowski_Cass.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Mills_Don.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Mills_Don.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Nicolosi_Nick.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Nicolosi_Nick.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Peppers_Brenda.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Peppers_Brenda.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Rhodes_Tricia.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Rhodes_Tricia.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Rivera_Melanie.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Rivera_Melanie.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Robertson_Jason.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Robertson_Jason.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Shriver_Ryan.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Shriver_Ryan.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Smith_Sam.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Smith_Sam.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Snyder_Chris.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Snyder_Chris.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Tan_Craig.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Tan_Craig.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Tashner_Julie.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Tashner_Julie.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Tuskey_Kevin.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Tuskey_Kevin.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Waldau_Matt.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Waldau_Matt.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Wenzel_Anthony.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Wenzel_Anthony.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Wenzler_Paul.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Wenzler_Paul.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Williams_Allison.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Williams_Allison.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Wolfe_Carter.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Wolfe_Carter.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Wyatt_Bryant.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Wyatt_Bryant.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/photos/profile_Young_Aretina.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Young_Aretina.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/service-worker.js" afterPath="$PROJECT_DIR$/docs/service-worker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/static/css/main.f1682158.css" afterPath="$PROJECT_DIR$/docs/static/css/main.f1682158.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/static/css/main.f1682158.css.map" afterPath="$PROJECT_DIR$/docs/static/css/main.f1682158.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/static/js/main.488b33b1.js" afterPath="$PROJECT_DIR$/docs/static/js/main.488b33b1.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/static/js/main.488b33b1.js.map" afterPath="$PROJECT_DIR$/docs/static/js/main.488b33b1.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/client/docs/static/media/logo.5d5d9eef.svg" afterPath="$PROJECT_DIR$/docs/static/media/logo.5d5d9eef.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/public/photos/profile_Northern_Stephanie.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/static/css/main.7da59810.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/static/css/main.7da59810.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/static/js/main.661399d3.js.map" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/css/main.f1682158.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/css/main.f1682158.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/js/main.488b33b1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/js/main.488b33b1.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/static/media/logo.5d5d9eef.svg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/client/public/photos/profile_Druker_Stephanie.jpg" afterPath="$PROJECT_DIR$/docs/photos/profile_Northern_Stephanie.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/photos/profile_Druker_Stephanie.jpg" afterPath="$PROJECT_DIR$/client/public/photos/profile_Northern_Stephanie.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/docs/static/js/main.488b33b1.js" afterPath="$PROJECT_DIR$/docs/static/js/main.661399d3.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package-lock.json" afterPath="$PROJECT_DIR$/client/package-lock.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/package.json" afterPath="$PROJECT_DIR$/client/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/App.css" afterPath="$PROJECT_DIR$/client/src/App.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/App.js" afterPath="$PROJECT_DIR$/client/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/data.js" afterPath="$PROJECT_DIR$/client/src/data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/src/index.css" afterPath="$PROJECT_DIR$/client/src/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/asset-manifest.json" afterPath="$PROJECT_DIR$/docs/asset-manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="$PROJECT_DIR$/docs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/service-worker.js" afterPath="$PROJECT_DIR$/docs/service-worker.js" />
     </list>
     <ignored path="skills.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -99,73 +47,40 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.030181086">
-              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+            <state vertical-scroll-proportion="2.5050302">
+              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile_Cox_Emily.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/photos/profile_Cox_Emily.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="data.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/data.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="127.59259">
+              <caret line="407" column="15" selection-start-line="407" selection-start-column="9" selection-end-line="407" selection-end-column="15" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile_Hogan_Jay.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/photos/profile_Hogan_Jay.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/App.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5512822">
+              <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile_Mills_Don.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/photos/profile_Mills_Don.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile_Smith_Sam.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/photos/profile_Smith_Sam.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile_Tan_Craig.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/photos/profile_Tan_Craig.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile_Blake_Kris.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/photos/profile_Blake_Kris.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile_Carr_Derek.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/photos/profile_Carr_Derek.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile_Chou_Jimmy.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/photos/profile_Chou_Jimmy.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile_Dart_David.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/photos/profile_Dart_David.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7647059">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -177,8 +92,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/data.js" />
         <option value="$PROJECT_DIR$/client/src/index.css" />
+        <option value="$PROJECT_DIR$/client/src/data.js" />
         <option value="$PROJECT_DIR$/client/src/App.css" />
         <option value="$PROJECT_DIR$/client/src/App.js" />
       </list>
@@ -249,6 +164,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skills" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -267,7 +214,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,6 +233,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
       <recent name="$PROJECT_DIR$/client/docs" />
     </key>
   </component>
@@ -351,9 +299,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -419,14 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="21.444445">
-          <caret line="90" column="102" selection-start-line="90" selection-start-column="102" selection-end-line="90" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -435,76 +375,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/node_modules/react/lib/React.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2112676">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state vertical-scroll-proportion="-1.7647059">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="127.59259">
+          <caret line="407" column="15" selection-start-line="407" selection-start-column="9" selection-end-line="407" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.0">
-          <caret line="43" column="47" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        <state vertical-scroll-proportion="-2.5512822">
+          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/photos/profile_Ely_Oren.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/photos/profile_Cox_Emily.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/photos/profile_Hogan_Jay.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/photos/profile_Mills_Don.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/photos/profile_Smith_Sam.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/photos/profile_Tan_Craig.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/photos/profile_Blake_Kris.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/photos/profile_Carr_Derek.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/photos/profile_Chou_Jimmy.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/photos/profile_Dart_David.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.030181086">
-          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
+        <state vertical-scroll-proportion="2.5050302">
+          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
           <folding />
         </state>
       </provider>

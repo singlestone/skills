@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 import data from './data';
@@ -30,6 +29,11 @@ class SkillSearch extends Component {
         this.setState({searchText: event.target.value});
     }
 
+    handleError(event) {
+        console.log('didnt load');
+        this.setState({errored: true});
+    }
+
   render() {
       let searchText = this.state.searchText;
       let employees = this.state.employees
@@ -40,7 +44,8 @@ class SkillSearch extends Component {
                   lastName: employee.lastName,
                   fullName: employee.firstName + ' ' + employee.lastName,
                   initials: employee.firstName.charAt(0) + employee.lastName.charAt(0),
-                  skills: employee.skills
+                  skills: employee.skills,
+                  photo : employee.photo
               }
           })
           .filter(function(employee) {
@@ -59,6 +64,7 @@ class SkillSearch extends Component {
               return 0;
           })
           .map(function(employee) {
+              let employeeProfile = null;
               let skills = employee.skills
                   .sort(function (a,b) {
                       if (a.toLowerCase() > b.toLowerCase()) {
@@ -80,8 +86,7 @@ class SkillSearch extends Component {
               return (
                   <div className="employee-wrapper" key={employee.id}>
                       <div className="profile">
-                        <img src={`photos/profile_${employee.lastName}_${employee.firstName}.jpg`} alt={employee.fullName}/>
-                          <span>{employee.initials}</span>
+                          {employee.photo ? <img src={employee.photo} alt={employee.fullName}/> : <span>{employee.initials}</span>}
                       </div>
                       <div className="details">
                       <h3>{employee.fullName}</h3>

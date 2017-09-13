@@ -50,7 +50,7 @@
   width: 100%;
   text-align: center;
   font-size: 56px;
-  line-height: 88px;
+  line-height: 120px;
 }
 
 .employee-wrapper .profile img {
@@ -69,13 +69,17 @@
   margin: 0;
 }
 
+h3 span, li span {
+  color: red;
+}
+
 .employee-wrapper .details ul {
   margin: 8px 0;
   padding: 0;
 }
 
 .employee-wrapper li {
-  display: inline;
+  display: inline-block;
   list-style: none;
   font-size: 12px;
   line-height: 1.3;

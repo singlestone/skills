@@ -380,4 +380,32 @@ export default [
         lastName: 'Young',
         skills: ["Business Analysis", "Business Process Improvement", "Project Management", "Process Engineering", "Agile Methodologies", "Integration", "IT Strategy", "Change Management", "Risk Management", "Requirements Analysis", "Agile Project Management", "Leadership", "Strategy", "Visio"]
     }
-];
+].map(x=>{
+    let employeesWithoutPhotos = [
+        'bcrouse',
+        'bbyrd',
+        'blowe',
+        'dcoppinger',
+        'jkabel',
+        'kvanlandingham',
+        'kcooper',
+        'khall',
+        'khendricks',
+        'lmurray',
+        'mspeed',
+        'mcombs',
+        'mhanratta',
+        'mmcghan',
+        'mponzio',
+        'mjoseph',
+        'rfriedberg',
+        'tlong',
+        'tchapman',
+        'vnilsen'
+    ];
+
+    if (!employeesWithoutPhotos.includes(x.username)) {
+        x.photo = `photos/profile_${x.lastName}_${x.firstName}.jpg`;
+    }
+    return x;
+});
