@@ -74,7 +74,7 @@
   margin: 0;
 }
 
-h3 span, li span {
+.highlighted {
   color: red;
 }
 

@@ -3,113 +3,93 @@ import './App.css';
 
 import data from './data';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <SkillSearch data={ data }/>
-      </div>
-    );
-  }
+const employees = data
+  .map(employee => ({
+    id: employee.username,
+    firstName: employee.firstName,
+    lastName: employee.lastName,
+    fullName: employee.firstName + ' ' + employee.lastName,
+    initials: employee.firstName.charAt(0) + employee.lastName.charAt(0),
+    skills: employee.skills.sort(sortBy(x => x.toLowerCase())),
+    photo : employee.photo
+  }))
+  .sort(sortBy(x => x.firstName.toLowerCase()));
+
+function sortBy(key) {
+    return (a,b) => {
+        const aVal = key(a), bVal = key(b);
+
+        if (aVal > bVal) { return 1; }
+        if (aVal < bVal) { return -1; }
+        return 0;        
+    }
+}
+
+function caseInsensitiveIncludes(x) {
+    return y => y.toLowerCase().includes(x.toLowerCase());
+}
+
+function App(props) {
+  return (
+    <div className="App">
+      <SkillSearch employees={ employees }/>
+    </div>
+  );
 }
 
 class SkillSearch extends Component {
   constructor(props) {
     super(props);
-    this.state = {value: ''};
-      this.state = {
-          searchText: '',
-          employees: this.props.data
-      };
-
+    this.state = { searchText: '' };
     this.handleChange = this.handleChange.bind(this);
   }
 
-    handleChange(event) {
-        this.setState({searchText: event.target.value});
-    }
-
-    handleError(event) {
-        console.log('didnt load');
-        this.setState({errored: true});
-    }
+  handleChange(event) {
+    this.setState({searchText: event.target.value});
+  }
 
   render() {
-      let searchText = this.state.searchText;
-      let employees = this.state.employees
-          .map(function(employee) {
-              return {
-                  id: employee.username,
-                  firstName: employee.firstName,
-                  lastName: employee.lastName,
-                  fullName: employee.firstName + ' ' + employee.lastName,
-                  initials: employee.firstName.charAt(0) + employee.lastName.charAt(0),
-                  skills: employee.skills,
-                  photo : employee.photo
-              }
-          })
-          .filter(function(employee) {
-              return employee.fullName.toLowerCase().includes(searchText.toLowerCase())
-                  || employee.skills.some(function(skill) {
-                      return skill.toLowerCase().includes(searchText.toLowerCase());
-                  });
-          })
-          .sort(function (a,b) {
-              if (a.fullName.toLowerCase() > b.fullName.toLowerCase()) {
-                  return 1;
-              }
-              if (a.fullName.toLowerCase() < b.fullName.toLowerCase()) {
-                  return -1;
-              }
-              return 0;
-          })
-          .map(function(employee) {
-              let employeeProfile = null;
-              let skills = employee.skills
-                  .sort(function (a,b) {
-                      if (a.toLowerCase() > b.toLowerCase()) {
-                          return 1;
-                      }
-                      if(a.toLowerCase() < b.toLowerCase()) {
-                          return -1;
-                      }
-                      return 0;
-                  })
-                  .map(function(skill) {
-                      return (
-                          <li key={employee.id + skill}>
-                              {skill}
-                          </li>
-                      )
-                  });
-
-              return (
-                  <div className="employee-wrapper" key={employee.id}>
-                      <div className={employee.photo ? "profile photo" : "profile"}>
-                          {employee.photo ? <img src={employee.photo} alt={employee.fullName}/> : <span>{employee.initials}</span>}
-                      </div>
-                      <div className="details">
-                      <h3>{employee.fullName}</h3>
-                          <ul>
-                              {skills}
-                          </ul>
-                      </div>
-                  </div>
-              );
-          });
+    const matchesSearch = caseInsensitiveIncludes(this.state.searchText);
+    const employees = this.props.employees
+      .filter(employee => matchesSearch(employee.fullName) || employee.skills.some(matchesSearch))
+      .map(employee => <Employee key={employee.id} data={employee} searchText={this.state.searchText} />);
 
     return (
-        <div>
-            <div className="search-wrapper">
-                <input type="text" value={this.state.searchText} onChange={this.handleChange} placeholder="Search Skills and People"></input>
-            </div>
-            <div className="employees">
-                {employees}
-            </div>
+      <div>
+        <div className="search-wrapper">
+          <input type="text" value={this.state.searchText} onChange={this.handleChange} placeholder="Search Skills and People" />
         </div>
+        <div className="employees">{employees}</div>
+      </div>
     );
   }
 }
 
+function Employee(props) {
+  const matchesSearch = caseInsensitiveIncludes(props.searchText);
+  const skills = props.data.skills.map(skill => {
+    return (
+      <li key={props.data.id + skill}>
+        <Skill highlighted={props.searchText.length >= 3 && matchesSearch(skill)} text={skill} />
+      </li>
+    );
+  });
+
+  return (
+    <div className={"employee-wrapper"}>
+      <div className={props.data.photo ? "profile photo" : "profile"}>
+        {props.data.photo ? <img src={props.data.photo} alt={props.data.fullName}/> : <span>{props.data.initials}</span>}
+      </div>
+      <div className="details">
+        <h3 className={props.searchText.length >= 3 && matchesSearch(props.data.fullName) ? "highlighted" : undefined}>{props.data.fullName}</h3>
+        <ul>{skills}</ul>
+      </div>
+    </div>
+  );
+}
+
+function Skill(props) {
+  return ( <span className={props.highlighted ? "highlighted" : undefined }>{props.text}</span> );
+}
 
 export default App;
