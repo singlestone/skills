@@ -67,29 +67,33 @@ class SkillSearch extends Component {
 
 function Employee(props) {
   const matchesSearch = caseInsensitiveIncludes(props.searchText);
-  const skills = props.data.skills.map(skill => {
-    return (
-      <li key={props.data.id + skill}>
-        <Skill highlighted={props.searchText.length >= 3 && matchesSearch(skill)} text={skill} />
-      </li>
-    );
-  });
+  const skills = props.data.skills.map(skill => (
+    <li key={props.data.id + skill}>
+      <Skill highlighted={shouldHighlight(skill)} text={skill} />
+    </li>
+  ));
 
   return (
     <div className={"employee-wrapper"}>
       <div className={props.data.photo ? "profile photo" : "profile"}>
-        {props.data.photo ? <img src={props.data.photo} alt={props.data.fullName}/> : <span>{props.data.initials}</span>}
+        { props.data.photo 
+          ? <img src={props.data.photo} alt={props.data.fullName}/> 
+          : <span>{props.data.initials}</span> }
       </div>
       <div className="details">
-        <h3 className={props.searchText.length >= 3 && matchesSearch(props.data.fullName) ? "highlighted" : undefined}>{props.data.fullName}</h3>
+        <h3 className={shouldHighlight(props.data.fullName) && "highlighted"}>{props.data.fullName}</h3>
         <ul>{skills}</ul>
       </div>
     </div>
   );
+  
+  function shouldHighlight(value) {
+    return props.searchText.length >= 3 && matchesSearch(value);
+  }
 }
 
 function Skill(props) {
-  return ( <span className={props.highlighted ? "highlighted" : undefined }>{props.text}</span> );
+  return ( <span className={props.highlighted && "highlighted"}>{props.text}</span> );
 }
 
 export default App;
