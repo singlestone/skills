@@ -142,6 +142,7 @@ mark {
 
   .employee-wrapper li {
     font-size: 16px;
+    line-height: 1.5;
   }
 }
 
@@ -156,21 +157,26 @@ mark {
   border-color: rgba(0,0,0,0.12);
 }
 
-.search-wrapper .icon {
-  margin: 0 auto;
-  display: inline;
+.search-box:before {
+  right: -25px;
+  top: 3px;
+  content: "\F4A4";
+  font-family: Ionicons;
+  font-size: 29px;
+  position: relative;
+  color: #777777;
 }
 
 .search-wrapper input {
   background: #f0f0f0;
   border: none;
   border-radius: 4px;
-  line-height: 1;
-  padding: 14px 14px 14px 30px;
+  line-height: 2;
+  padding: 4px 14px 4px 30px;
   width: 100%;
   font-size: 20px;
   max-width: 400px;
   margin: 0 auto;
-  display: block;
+  display: inline-block;
   font-family: 'Roboto', sans-serif;
 }

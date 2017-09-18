@@ -57,8 +57,10 @@ class SkillSearch extends Component {
     return (
       <div>
         <div className="search-wrapper">
-          <input type="text" value={this.state.searchText} onChange={this.handleChange} placeholder="Search Skills and People" />
-        </div>
+          <div className="search-box">
+            <input type="text" value={this.state.searchText} onChange={this.handleChange} placeholder="Search Skills and People" />
+          </div>
+       </div>
         <div className="employees">{employees}</div>
       </div>
     );
