@@ -86,7 +86,7 @@ function Employee(props) {
 }
 
 function highlightValue({ text, searchText }) {
-  return searchText.length < 3  ? text : text.replace(new RegExp(`(${searchText})`, 'gi'), '<span class="highlighted">$1</span>');
+  return searchText.length < 3  ? text : text.replace(new RegExp(`(${searchText})`, 'gi'), '<mark>$1</mark>');
 }
 
 export default App;

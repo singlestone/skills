@@ -74,8 +74,12 @@
   margin: 0;
 }
 
-.highlighted {
-  color: red;
+mark {
+  background-color: rgba(0,128,252,0.3);
+  color: #000000;
+  border-radius: 2px;
+  padding: 3px 2px; 
+  margin: 0 -2px;
 }
 
 .employee-wrapper .details ul {
