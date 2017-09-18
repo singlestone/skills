@@ -68,6 +68,8 @@
   text-indent:-9999px;
 }
 
+
+
 .employee-wrapper .details {
   margin-top: 8px;
   margin-left: 12px;
@@ -95,7 +97,8 @@ mark {
   display: inline-block;
   list-style: none;
   font-size: 12px;
-  line-height: 1.3;
+  line-height: 1.35;
+  color: #555555;
 }
 
 .employee-wrapper li:after {
@@ -108,6 +111,42 @@ mark {
   display: none;
 }
 
+@media only screen and (min-width : 1000px) { /*1224 */
+  .employees {
+    padding-left: 16px;
+  }
+
+  .employee-wrapper {
+    max-width: 800px;
+  }
+
+  .employee-wrapper .details {
+    padding-left: 16px;
+  }
+
+  .employee-wrapper .details h3 {
+    font-size: 22px;
+  }
+
+  .employee-wrapper .profile {
+    height: 80px;
+    flex: 0 0 80px;
+  }
+
+  .employee-wrapper .profile img {
+    height: 80px;
+    width: 80px;
+  }
+
+  .employee-wrapper .profile span {
+    line-height: 80px;
+  }
+
+  .employee-wrapper li {
+    font-size: 16px;
+  }
+}
+
 .search-wrapper {
   background: white;
   padding: 12px;
@@ -117,6 +156,11 @@ mark {
   border-style: solid;
   border-width: 0 0 1px 0;
   border-color: rgba(0,0,0,0.12);
+}
+
+.search-wrapper .icon {
+  margin: 0 auto;
+  display: inline;
 }
 
 .search-wrapper input {
@@ -132,3 +176,12 @@ mark {
   display: block;
   font-family: 'Roboto', sans-serif;
 }
+
+/*
+.search-wrapper:before {
+  font-family: 'Ionicons';
+  font-size: 12px;
+  content: "\f4a4";
+  color: black;
+}
+*/
