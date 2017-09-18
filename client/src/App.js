@@ -66,11 +66,8 @@ class SkillSearch extends Component {
 }
 
 function Employee(props) {
-  const matchesSearch = caseInsensitiveIncludes(props.searchText);
   const skills = props.data.skills.map(skill => (
-    <li key={props.data.id + skill}>
-      <Skill highlighted={shouldHighlight(skill)} text={skill} />
-    </li>
+    <li key={props.data.id + skill} dangerouslySetInnerHTML={{__html: highlightValue({text: skill, searchText: props.searchText})}} />
   ));
 
   return (
@@ -81,19 +78,15 @@ function Employee(props) {
           : <span>{props.data.initials}</span> }
       </div>
       <div className="details">
-        <h3 className={shouldHighlight(props.data.fullName) && "highlighted"}>{props.data.fullName}</h3>
+        <h3 dangerouslySetInnerHTML={ {__html: highlightValue({text: props.data.fullName, searchText: props.searchText })}}/>
         <ul>{skills}</ul>
       </div>
     </div>
   );
-  
-  function shouldHighlight(value) {
-    return props.searchText.length >= 3 && matchesSearch(value);
-  }
 }
 
-function Skill(props) {
-  return ( <span className={props.highlighted && "highlighted"}>{props.text}</span> );
+function highlightValue({ text, searchText }) {
+  return searchText.length < 3  ? text : text.replace(new RegExp(`(${searchText})`, 'gi'), '<span class="highlighted">$1</span>');
 }
 
 export default App;
