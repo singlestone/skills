@@ -67,7 +67,7 @@ class SkillSearch extends Component {
 
 function Employee(props) {
   const skills = props.data.skills.map(skill => (
-    <li key={props.data.id + skill} dangerouslySetInnerHTML={{__html: highlightValue({text: skill, searchText: props.searchText})}} />
+    <li key={props.data.id + skill} dangerouslySetInnerHTML={{ __html: highlightValue({ text: skill, searchText: props.searchText })}} />
   ));
 
   return (
@@ -78,7 +78,7 @@ function Employee(props) {
           : <span>{props.data.initials}</span> }
       </div>
       <div className="details">
-        <h3 dangerouslySetInnerHTML={ {__html: highlightValue({text: props.data.fullName, searchText: props.searchText })}}/>
+        <h3 dangerouslySetInnerHTML={{ __html: highlightValue({ text: props.data.fullName, searchText: props.searchText })}}/>
         <ul>{skills}</ul>
       </div>
     </div>

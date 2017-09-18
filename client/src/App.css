@@ -29,10 +29,14 @@
   color: #4c4b4c;
   display: flex;
   letter-spacing: 0.03em;
-  padding: 16px 0;
+  padding: 16px 12px 16px 0;
   border-bottom: 1px solid #d5d5d5;
   max-width: 600px;
   margin: 0 auto;
+}
+
+.employee-wrapper:last-of-type {
+  border-style: none;
 }
 
 .employee-wrapper .profile {
@@ -110,6 +114,9 @@ mark {
   position: fixed;
   top: 0;
   width: 100%;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: rgba(0,0,0,0.12);
 }
 
 .search-wrapper input {
@@ -123,4 +130,5 @@ mark {
   max-width: 400px;
   margin: 0 auto;
   display: block;
+  font-family: 'Roboto', sans-serif;
 }
