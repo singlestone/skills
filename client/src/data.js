@@ -87,7 +87,7 @@ export default [{
     username: 'bcrouse',
     firstName: 'Ben',
     lastName: 'Crouse',
-    skills: ["C#", "ASP.NET", "JavaScript", "Web Services", "SQL", "jQuery", "HTML", "ASP.NET MVC", "Visual Studio", "XML", "T-SQL", "VB.NET", "WCF", "TFS", "AJAX", "Visual Basic .NET (VB.NET)", "LINQ", "Windows Communication Foundation (WCF)", "Team Foundation Server (TFS)", "Transact-SQL (T-SQL)", "Test Driven Development", ".NET"]
+    skills: ["C#", "ASP.NET", "JavaScript", "Web Services", "SQL", "jQuery", "HTML", "ASP.NET MVC", "Visual Studio", "XML", "T-SQL", "VB.NET", "WCF", "TFS", "AJAX", "LINQ", "Test Driven Development", ".NET"]
 }, {
     username: 'ldunning',
     firstName: 'Laura',
@@ -147,7 +147,7 @@ export default [{
     username: 'ghatzikotelis',
     firstName: 'George',
     lastName: 'Hatzikotelis',
-    skills: ["Agile Methodologies", "Test Automation", "Testing", "Agile Testing", "Scrum", "Requirements Analysis", "Quality Assurance", "Selenium", "Test Driven Development", "SQL", "Agile Project Management", "SharePoint", "Continuous Integration", "Cucumber", "Automated Software Testing", "Jenkins", "SDLC", "Software Quality Assurance", "Performance Testing", "TFS", "Business Analysis", "Fitnesse", "Kanban", "Quality Center", "System Testing", "Software Deployment", "Certified Scrum Master CSM", "Team Foundation Server", "Chef", "Ruby", "RubyMine"]
+    skills: ["Agile Methodologies", "Test Automation", "Testing", "Agile Testing", "Scrum", "Requirements Analysis", "Quality Assurance", "Selenium", "Test Driven Development", "SQL", "Agile Project Management", "SharePoint", "Continuous Integration", "Cucumber", "Automated Software Testing", "Jenkins", "SDLC", "Software Quality Assurance", "Performance Testing", "TFS", "Business Analysis", "Fitnesse", "Kanban", "Quality Center", "System Testing", "Software Deployment", "Certified Scrum Master CSM", "Chef", "Ruby", "RubyMine"]
 }, {
     username: 'jhaun',
     firstName: 'Jeremy',

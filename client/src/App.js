@@ -51,7 +51,7 @@ class SkillSearch extends Component {
   render() {
     const matchesSearch = caseInsensitiveIncludes(this.state.searchText);
     const employees = this.props.employees
-      .filter(employee => matchesSearch(employee.fullName) || employee.skills.some(matchesSearch))
+      .filter(employee => this.state.searchText.length < 3 || matchesSearch(employee.fullName) || employee.skills.some(matchesSearch))
       .map(employee => <Employee key={employee.id} data={employee} searchText={this.state.searchText} />);
 
     return (
