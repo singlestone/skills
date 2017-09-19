@@ -88,7 +88,13 @@ function Employee(props) {
 }
 
 function highlightValue({ text, searchText }) {
-  return searchText.length < 3  ? text : text.replace(new RegExp(`(${searchText})`, 'gi'), '<mark>$1</mark>');
+  return searchText.length < 3  ? text : text.replace(new RegExp(`(${escapeForRegex(searchText)})`, 'gi'), '<mark>$1</mark>');
+}
+
+const regexEscapeRegex = /[-/\\^$*+?.()|[\]{}]/g;
+
+function escapeForRegex(text) {
+    return text.replace(regexEscapeRegex, '\\$&');
 }
 
 export default App;
