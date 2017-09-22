@@ -1,12 +1,3 @@
-.App {
-
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
 .App-header {
   background-color: #222;
   height: 150px;
@@ -84,6 +75,7 @@ mark {
   border-radius: 2px;
   padding: 3px 2px; 
   margin: 0 -2px;
+  letter-spacing: 0.03em;
 }
 
 .employee-wrapper .details ul {
@@ -161,7 +153,8 @@ mark {
 .search-box {
   position: relative;
   display: inline-block;
-  min-width: 400px;
+  max-width: 400px;
+  width: 100%;
 }
 
 .search-box:before {
@@ -172,6 +165,7 @@ mark {
   font-size: 24px;
   position: absolute;
   color: #777777;
+  z-index: 2
 }
 
 .search-wrapper input {
@@ -186,6 +180,19 @@ mark {
   margin: 0 auto;
   display: inline-block;
   font-family: 'Roboto', sans-serif;
+  z-index: 1;
+  position: relative;
+  float: left;
+}
+
+.search-wrapper button {
+  z-index: 0;
+  position: relative;
+  bottom: 38px;
+  float: right;
+  font-family: Roboto;
+  font-size: 20px;
+  display: inline;
 }
 
 .search-wrapper input:focus::-webkit-input-placeholder {    color: #8e8f90; }
