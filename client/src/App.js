@@ -42,10 +42,31 @@ class SkillSearch extends Component {
     super(props);
     this.state = { searchText: '' };
     this.handleChange = this.handleChange.bind(this);
+    this.cancel = this.cancel.bind(this);
+    this.reset = this.reset.bind(this);
+    this.focus = this.focus.bind(this);
+    this.inputDom = undefined;
   }
 
   handleChange(event) {
     this.setState({searchText: event.target.value});
+  }
+
+  cancel() {
+    this.setState({searchText: ''});
+    this.inputDom.blur();
+    this.inputDom.classList.remove("focused-input");	
+    //inputer.blur();
+    //inputer.classList.remove("focused-inputer");	
+  }
+
+  reset() {
+    this.setState({searchText: ''});
+    this.inputDom.focus();
+  }
+
+  focus() {
+    this.inputDom.classList.add("focused-input");
   }
 
   render() {
@@ -58,7 +79,16 @@ class SkillSearch extends Component {
       <div>
         <div className="search-wrapper">
           <div className="search-box">
-            <input type="text" value={this.state.searchText} onChange={this.handleChange} placeholder="Search Skills and People" />
+            <input
+              type="text"
+              value={this.state.searchText}
+              onChange={this.handleChange}
+              onFocus={this.focus}
+              ref={(x) => { this.inputDom = x; }}
+              placeholder="Search Skills and People"
+            />
+            <div id="reseter" className={`icon ion-close-circled ${this.state.searchText ? 'nonempty' : ''}`} onClick={this.reset}></div>
+		        <div id="canceler" onClick={this.cancel}>Cancel</div>
           </div>
        </div>
         <div className="employees">{employees}</div>
