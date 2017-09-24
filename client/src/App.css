@@ -165,7 +165,7 @@ mark {
   font-size: 24px;
   position: absolute;
   color: #777777;
-  z-index: 2
+  z-index: 3
 }
 
 .search-wrapper input {
@@ -232,12 +232,9 @@ mark {
 	position: absolute;
 	right: 69px;
 	top: 6px;
-	/*opacity: 0;*/
-	/*transition: opacity 0.1s linear;*/
 }
 #reseter.nonempty {
 	display: block;
-	/*opacity: 1;*/
 }
 
 .search-wrapper input:focus::-webkit-input-placeholder {    color: #8e8f90; }
