@@ -8,7 +8,7 @@ const employees = data
     id: employee.username,
     firstName: employee.firstName,
     lastName: employee.lastName,
-    fullName: employee.firstName + ' ' + employee.lastName,
+    fullName: employee.firstName + ' ' + (employee.middleName ? (employee.middleName+ ' ') : '') + employee.lastName,
     initials: employee.firstName.charAt(0) + employee.lastName.charAt(0),
     skills: employee.skills.sort(sortBy(x => x.toLowerCase())),
     photo : employee.photo

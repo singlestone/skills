@@ -14,6 +14,12 @@ export default [{
     lastName: 'Artus',
     skills: ["Business Analysis", "Requirements Analysis", "Agile Methodologies", "Project Management", "Business Strategy", "Technical Writing", "Technical Documentation", "Requirements Gathering", "Analysis", "Management Consulting", "Microsoft Office", "Program Management", "Business Process Improvement", "Research", "Editing", "Regulatory Requirements", "User Acceptance Testing", "Process Engineering", "Integration", "Management", "Process Improvement", "Visio"]
 }, {
+    username: 'martus',
+    firstName: 'Mary',
+    middleName: 'Bowen',
+    lastName: 'Artus',
+    skills: ["Business Process Improvement", "Strategy", "Business Analysis", "Management Consulting", "Financial Analysis", "PMO", "Requirements Analysis", "Requirements Gathering", "Data Analysis", "Management", "Program Management", "Visio", "Financial Services", "SDLC", "Business Process Design", "Business Requirements", "Financial Modeling", "Business Process", "Business Intelligence", "IT Strategy", "Business Transformation", "Microsoft Excel", "VBA", "Requirements Management", "Visual Basic", "Requirements Traceability", "Risk Management", "Enterprise Architecture", "Excel", "Quality Center"]
+}, {
     username: 'cbelyea',
     firstName: 'Chris',
     lastName: 'Belyea',
