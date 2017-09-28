@@ -115,11 +115,6 @@ export default [{
     lastName: 'Estabrook',
     skills: ["Art Direction", "UX", "Web Application Design", "User Interface Design", "Web Design", "Graphic Design", "Information Architecture", "Usability Engineering", "Agile Methodologies", "Web Development", "XHTML", "CSS", "jQuery", "SharePoint", "User Experience", "Agile Project Management", "Business Analysis", "Software Development", "User Interface", "Advertising", "Scrum", "Online Marketing", "Usability Testing"]
 }, {
-    username: 'rfriedberg',
-    firstName: 'Ryan',
-    lastName: 'Friedberg',
-    skills: ["Program Evaluation", "Public Health", "Data Analysis", "Grant Writing", "Statistics", "SPSS", "Community Outreach", "Clinical Research", "Epidemiology", "Grants", "Consulting", "Microsoft Office", "Public Speaking", "Supervisory Experience", "Program Management", "Research", "Analysis", "Leadership", "R", "JMP", "Database Design", "Hootsuite", "Business Analysis", "Predictive Modeling", "SAS", "Python", "Project Management", "SQL", "PostgreSQL", "MongoDB"]
-}, {
     username: 'jgarrity',
     firstName: 'Jim',
     lastName: 'Garrity',
@@ -134,11 +129,6 @@ export default [{
     firstName: 'Victoria',
     lastName: 'Griffin',
     skills: ["Illustrator", "InDesign", "Social Media", "Graphic Design", "Web Design", "Photoshop", "HTML", "Calligraphy", "Hand-lettering", "Microsoft Word", "PowerPoint", "Xcode", "Keynote", "Microsoft Excel", "AutoCAD", "Revit", "Java", "C++", "Microsoft Office", "Photography", "Adobe Creative Suite", "Logo Design"]
-}, {
-    username: 'khall',
-    firstName: 'Kate',
-    lastName: 'Hall',
-    skills: ["Leadership", "Strategy", "Social Media Marketing", "Management", "Social Media", "Marketing", "Project Management", "Strategic Planning", "Training", "Recruiting", "Public Speaking", "Advertising", "Vendor Management", "Social Networking", "Cross-functional Team Leadership", "Change Management", "Blogging", "Team Building", "Team Leadership", "Entrepreneurship", "Marketing Communications", "Email Marketing", "Marketing Strategy", "Public Relations", "Sales Management", "Event Planning", "Online Marketing", "Integration", "Coaching", "Small Business", "Copywriting", "Market Research", "New Business Development", "Account Management", "Leadership Development", "Onboarding", "PMP", "Temporary Placement", "Start-ups", "Facebook", "Corporate Communications", "Business Strategy", "Lead Generation", "Marketing Management", "Content Strategy", "Online Advertising", "Strategic Communications", "Internal Communications", "Brand Development", "Brand Management"]
 }, {
     username: 'mhanratta',
     firstName: 'Matt',
